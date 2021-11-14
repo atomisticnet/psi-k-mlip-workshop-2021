@@ -1,0 +1,14 @@
+DESCR
+  Structural fingerprint setup for O in bulk TiO2.
+END DESCR
+
+ATOM Ti
+
+ENV  2
+Ti
+O
+
+RMIN 0.45d0
+
+BASIS type=Chebyshev
+radial_Rc = 6.0  radial_N = 22  angular_Rc = 3.0  angular_N = 6

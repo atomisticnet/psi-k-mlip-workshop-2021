@@ -1,0 +1,15 @@
+#!/bin/sh
+#SBATCH --account=urban
+#SBATCH --nodes=1
+#SBATCH --tasks-per-node=1
+#SBATCH --time=2:00:00
+#SBATCH --mem-per-cpu=6gb
+#SBATCH --threads-per-core=1
+#SBATCH --output=stdout.out
+#SBATCH --error=stderr.out
+
+module load intel-parallel-studio/2019
+ulimit -s unlimited
+
+mpiexec -bootstrap slurm  ~/bin/train.x-2.0.4-ifort_intelmpi train.in > fit-01-get-energies.dat
+

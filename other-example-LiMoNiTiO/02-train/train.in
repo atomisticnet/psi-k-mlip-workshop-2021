@@ -1,0 +1,19 @@
+TRAININGSET LiNiTiMoO.train
+TESTPERCENT 10.0
+ITERATIONS  50
+MAXENERGY   0.00  ! eV
+
+METHOD
+bfgs
+
+REGULARIZATION
+l2=0.0001
+
+NETWORKS
+! atom   network         hidden
+! types  file-name       layers  nodes:activation
+  Li     Li.05t-05t.nn    2      5:tanh 5:tanh
+  Ni     Ni.05t-05t.nn    2      5:tanh 5:tanh
+  Ti     Ti.05t-05t.nn    2      5:tanh 5:tanh
+  Mo     Mo.05t-05t.nn    2      5:tanh 5:tanh
+  O       O.05t-05t.nn    2      5:tanh 5:tanh

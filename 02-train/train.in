@@ -1,0 +1,13 @@
+TRAININGSET TiO2.train
+TESTPERCENT 10
+ITERATIONS  100
+MAXENERGY   -0.05 eV
+
+METHOD
+bfgs
+
+NETWORKS
+! atom   network         hidden
+! types  file-name       layers  nodes:activation
+  Ti     Ti.5t-5t.nn    2    5:tanh  5:tanh
+  O      O.5t-5t.nn     2    5:tanh  5:tanh
