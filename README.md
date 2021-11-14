@@ -18,7 +18,7 @@ A more in-depth tutorial introduction to ANN-based machine learning potentials c
 
 See also: Strategies for the Construction of Neural-Network Based Machine-Learning Potentials (MLPs),
 A.M. Miksch, T. Morawietz, J. Kästner, A. Urban, N. Artrith, 
-“Strategies for the Construction of Machine-Learning Potentials for Accurate and Efficient Atomic-Scale Simulations”, [Mach. Learn.: Sci. Technol. 2 **(2021)** 031001](https://doi.org/10.1088/2632-2153/abfd96). <br/>
+[Mach. Learn.: Sci. Technol. 2 **(2021)** 031001](https://doi.org/10.1088/2632-2153/abfd96). <br/>
 
 See also: https://github.com/atomisticnet/MLP-beginners-guide
 
